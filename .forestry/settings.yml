@@ -12,7 +12,6 @@ sections:
 - type: document
   path: read
   label: 阅读
-  match: "**/*"
 - type: directory
   path: docs
   label: Docs
