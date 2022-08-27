@@ -5,6 +5,15 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: get-started
+  label: 快速开始
+  create: all
+  match: "**/*"
+- type: document
+  path: read
+  label: 阅读
+  match: "**/*"
+- type: directory
   path: docs
   label: Docs
   create: documents
